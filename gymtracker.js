@@ -153,7 +153,7 @@ function makeMap() {
         fullscreenControl: true,
     });
     // Please get your own token at https://www.mapbox.com/signup/ It's free.
-    const mapboxToken = '';
+    const mapboxToken = 'pk.eyJ1IjoiYmVuYWRkZXJzb24iLCJhIjoiY2pnaTBuN2R3MG8xNTJxazE5d2prM2IzayJ9.sp0gSCSKzBuEJmDmqTSKrQ';
     // For testing only, you could use the OSM tile server instead:
     // L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     L.tileLayer(`https://api.tiles.mapbox.com/v4/mapbox.pirates/{z}/{x}/{y}.png?access_token=${mapboxToken}`, {
